@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -18,10 +19,15 @@ export default function Home() {
     <h2 className={styles.sec}>Reactjs</h2>
     <h2 className={styles.sec}>React Native</h2>
     <h2 className={styles.sec}>JavaScript</h2>
-    <div className={styles.grid}>
-    Projects:
-    </div>
-    <h2 className={styles.sec}>https://play.google.com/store/apps/details?id=com.VDv.ClaudioCrachasPlacas&hl=en_US&gl=US</h2>
+    <h2 className={styles.sec}>Expo</h2>
+    <h2 className={styles.sec}>Next.js</h2>
+    <h2 className={styles.sec}>CSS</h2>
+    <h1 className={styles.grid}>Works: </h1>
+        <h1 className={styles.title2}>Android Application: </h1>
+        <Link href="https://play.google.com/store/apps/details?id=com.VDv.ClaudioCrachasPlacas&hl=en_US&gl=US">
+          <button className={styles.sec2}>  Cláudio Crachás & Placas  </button>
+          </Link>
+        
     </div>
     
   )
