@@ -6,20 +6,21 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Vitor Penna</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>Hi, I‘m Vitor Penna, a Brazilian fullstack developer!</h1>
-
-        <div className={styles.grid}>
-          
-        </div>
       </main>
-
-      <footer className={styles.footer}>
-       
-      </footer>
+      <div className={styles.grid}>
+    CONHECIMENTO
     </div>
+    <h2 className={styles.sec}>Node.js</h2>
+    <h2 className={styles.sec}>Reactjs</h2>
+    <h2 className={styles.sec}>React Native</h2>
+    <h2 className={styles.sec}>JavaScript</h2>
+    
+    </div>
+    
   )
+  
 }
