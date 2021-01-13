@@ -12,13 +12,16 @@ export default function Home() {
         <h1 className={styles.title}>Hi, I‘m Vitor Penna, a Brazilian fullstack developer!</h1>
       </main>
       <div className={styles.grid}>
-    CONHECIMENTO
+      I have experience in:
     </div>
     <h2 className={styles.sec}>Node.js</h2>
     <h2 className={styles.sec}>Reactjs</h2>
     <h2 className={styles.sec}>React Native</h2>
     <h2 className={styles.sec}>JavaScript</h2>
-    
+    <div className={styles.grid}>
+    Projects:
+    </div>
+    <h2 className={styles.sec}>https://play.google.com/store/apps/details?id=com.VDv.ClaudioCrachasPlacas&hl=en_US&gl=US</h2>
     </div>
     
   )
