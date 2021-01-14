@@ -13,6 +13,7 @@ export default function Home() {
         <h1 className={styles.title}>Hi, I‘m Vitor Penna, a Brazilian fullstack developer!</h1>
       </main>
       <h1 className={styles.grid}>I have experience in: </h1>
+    
     <h2 className={styles.sec}>Node.js</h2>
     <h2 className={styles.sec}>Reactjs</h2>
     <h2 className={styles.sec}>React Native</h2>
@@ -21,13 +22,12 @@ export default function Home() {
     <h2 className={styles.sec}>Next.js</h2>
     <h2 className={styles.sec}>CSS</h2>
     <h1 className={styles.grid}>Works: </h1>
+    
         <h1 className={styles.title2}>Android Application: </h1>
         
-        <Link href="https://play.google.com/store/apps/details?id=com.VDv.ClaudioCrachasPlacas&hl=en_US&gl=US">
-          <button className={styles.sec2}>  Cláudio Crachás & Placas  </button>
-          </Link>
+        <a href="https://play.google.com/store/apps/details?id=com.VDv.ClaudioCrachasPlacas&hl=en_US&gl=US" className={styles.sec2}>Cláudio Crachás & Placas</a>
          <h1 className={styles.grid}>Contact: </h1>
-         <h2 className={styles.sec}>Linkedin: linkedin.com/in/vitorpenna</h2>
+         <a href="https://linkedin.com/in/vitorpenna"className={styles.sec2}>Linkedin</a>
          <h2 className={styles.sec}>WhatsApp: +55 (71) 988427565</h2>
               
     </div>
