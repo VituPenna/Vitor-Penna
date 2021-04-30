@@ -29,8 +29,8 @@ export default function Home() {
         <a href="https://play.google.com/store/apps/details?id=com.VDv.ClaudioCrachasPlacas&hl=en_US&gl=US" className={styles.sec2}>Cláudio Crachás & Placas</a>
          <h1 className={styles.grid}>Contact: </h1>
          <a href="https://linkedin.com/in/vitorpenna"className={styles.sec2}>Linkedin</a>
-         <h2 className={styles.sec}>WhatsApp: +55 (71) 988427565</h2>
-              
+         <h2 className={styles.sec}>WhatsApp:<br></br>+55 (71) 988427565</h2>
+         
     </div>
    
   )

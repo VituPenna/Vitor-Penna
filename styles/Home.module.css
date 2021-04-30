@@ -23,13 +23,15 @@
   color: #554477;
   background-color: #fff;
   border-radius: 10px;
+  align-items: center;
+  text-align: center;
   
 }
 
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 5rem;
+  font-size: 3rem;
   color: #554477;
   text-align: center;
   background-color: #ffffff;
@@ -61,7 +63,7 @@
   display: flex;
   padding: 1.5rem;
   flex-wrap: wrap;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #fff;
   max-width: 800px;
   margin-top: 3rem;
@@ -97,6 +99,7 @@
   margin-bottom: 2rem;
   font-size: 1.3rem;
   background-color: white;
+  
 }
 .sec2:after {
   content: '';
