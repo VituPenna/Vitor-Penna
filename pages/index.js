@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Hi, I‘m Vitor Penna, a Brazilian fullstack developer!</h1>
+        <h1 className={styles.title}>Hi, I‘m Vitor Penna,<br></br> a Brazilian fullstack developer!</h1>
       </main>
       <h1 className={styles.grid}>I have experience in: </h1>
     
@@ -20,6 +20,7 @@ export default function Home() {
     <h2 className={styles.sec}>JavaScript</h2>
     <h2 className={styles.sec}>Expo</h2>
     <h2 className={styles.sec}>Next.js</h2>
+    <h2 className={styles.sec}>HTML5</h2>
     <h2 className={styles.sec}>CSS</h2>
     <h1 className={styles.grid}>Works: </h1>
     
