@@ -7,6 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Vitor Penna</title>
+        <meta name="google-site-verification" content="LSxA8Uqdi7KbggkJcni1eAnNuJ2jUH1oPIWLi9KfwmM" />
       </Head>
 
       <main className={styles.main}>
